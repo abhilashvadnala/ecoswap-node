@@ -21,4 +21,4 @@ EcoSwap is a digital platform aimed at promoting environmental sustainability th
 
 ---
 
-For more information or to contribute to the project, please contact the EcoSwap team.
+For more information or to contribute to the project, please contact the EcoSwap team via [Discord](https://discord.gg/ZNckZBp8)

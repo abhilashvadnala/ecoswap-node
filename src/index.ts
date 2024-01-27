@@ -1,19 +1,6 @@
-import express from 'express';
-import db from './db';
-import authRoutes from './controllers/authRoutes';
+import app from './app';
 
-const app = express();
-const port = process.env.PORT || 1803;
-
-app.use(express.json());
-
-db;
-
-app.use('/auth', authRoutes);
-
-app.get('/', (req, res) => {
-    res.send('Hello Green World!');
-})
+const port: number | string = process.env.PORT || 1803;
 
 app.listen(port, () => {
     console.log(`ecoswap server is listening on PORT: ${port}`);
